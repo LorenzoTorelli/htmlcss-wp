@@ -1,0 +1,116 @@
+/* ********* commons ********* */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display:table ;
+    clear: both;
+}
+/* ********* header ********* */
+.header-top, .header-bottom {
+    margin-top: 20px;
+}
+
+
+
+#image {
+    height: 50px;
+}
+
+nav li {
+    display: inline-block;
+    line-height: 50px;
+    text-transform: uppercase;
+    margin-right: 10px;
+   
+}
+nav a {
+    text-decoration: none;
+    color:grey;
+}
+
+
+.text-header {
+    width: 60%;
+    padding: 20px;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+
+}
+
+.header-bottom {
+    height: 400px; 
+    background: linear-gradient(gba(0, 0, 0, 0.3));
+    background-image: url("../img/banner.jpg");
+    background-position: center;
+    position: relative;
+}
+
+/* ********* main ********* */
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box {
+    float: left;
+    width: 20%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.box:nth-child(2) {
+    width: 58%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+/* ********* footer ********* */
+.footer {
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+/* ********* debug ********* */
+.debug .header-top {
+    background-color: rgb(229,121,230);
+}
+.debug .header-bottom {
+    background-color: rgb(225,214,122);
+}
+
+.container.debug{
+    background-color: rgb(0, 135, 253);
+}
+
+.debug .box {
+    background-color: rgb(171, 207, 231);
+    height: 500px;
+}
+
+.debug .top-row {
+    height: 100px;
+    background-color: rgb(171, 207, 231);
+}
+
+.debug .footer {
+    background-color: rgb(136, 1, 254);
+}
+.debug #logo {
+    background-color: lightgray;
+}
+.debug nav {
+    height: 50px;
+    background-color: red;
+}
