@@ -39,22 +39,27 @@ nav a {
     color:grey;
 }
 
+.header-bottom {
+    height: 425px; 
+    background: url("../img/banner.jpg") rgba(0, 0, 0, 0.4);
+    background-position: center;
+    position: relative;
+    background-blend-mode: multiply;
+    border-radius: 10px;
+}
+
 
 .text-header {
     width: 60%;
-    padding: 20px;
+    padding: 30px;
     bottom: 0px;
     left: 0px;
     position: absolute;
-
+    margin-bottom: 20px;
 }
 
-.header-bottom {
-    height: 400px; 
-    background: linear-gradient(gba(0, 0, 0, 0.3));
-    background-image: url("../img/banner.jpg");
-    background-position: center;
-    position: relative;
+.text-header h2{
+    
 }
 
 /* ********* main ********* */
