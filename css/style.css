@@ -86,11 +86,55 @@ nav a {
     margin-top: 2%;
     margin-bottom: 2%;
 }
+/* #img-1, #img-2, #img-3 {
+    height: 200px;
+    background-blend-mode: multiply;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+
+
+} */
+
+.box h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.box p {
+    font-size: small;
+
+}
 
 .box:nth-child(2) {
     width: 58%;
     margin-left: 1%;
     margin-right: 1%;
+}
+/* ********* immagini main ********* */
+#img-1 {
+    background: url("../img/img-1.jpg") rgba(0, 0, 0, 0.4);
+    height: 200px;
+    background-blend-mode: multiply;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+#img-2{
+    background: url("../img/banner-2.jpg") rgba(0, 0, 0, 0.4);
+    height: 200px;
+    background-blend-mode: multiply;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+#img-3{
+    background: url("../img/img-3.jpg") rgba(0, 0, 0, 0.4);
+    height: 200px;
+    background-blend-mode: multiply;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
 }
 
 /* ********* footer ********* */
